@@ -11,13 +11,12 @@ line = new Path2D();
 
 
 var R = canvas.width / 2, d, angle, pX, pY, qX, qY; 
-var d, angle, pX, pY, qX, qY; 
 for (d = 0; d < 60; ++d) {
-    angel = (d / 60) * (2 * Math.PI); 
-    pX = Math.cos(angel) * R; 
-    pY = -Math.sin(angel) * R; 
-    qX = 0,9 * pX; 
-    qY= 0.9 * pY; 
+    angle = (d / 60) * (2 * Math.PI); 
+    pX = Math.cos(angle) * R; 
+    pY = -Math.sin(angle) * R; 
+    qX = 0.92 * pX; 
+    qY= 0.92 * pY; 
     pX+=R; pY+=R; 
     qX+=R; qY+=R; 
 
